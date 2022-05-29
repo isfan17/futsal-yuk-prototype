@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+
+    <title>Futsal Yuk! | Home</title>
+</head>
+
+<body>
+
+<!-- HEADER START -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="index.html" class="font-bold text-lg text-primary block py-6">
+                    <img class="w-24" src="dist/img/logo1.png" alt="">
+                </a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex lg:items-center">
+                        <li class="group">
+                            <a href="about.html" class="text-base lg:font-bold text-dark py-2 mx-8 lg:mx-5 flex group-hover:text-primary transition duration-300 ease-in-out">About Us</a>
+                        </li>
+                        <li class="group">
+                            <a href="login.html" class="text-base py-2 lg:px-5 mx-8 lg:mx-5 flex group-hover:text-primary lg:group-hover:text-white lg:hover:bg-primary lg:border-2 lg:border-primary lg:text-primary lg:rounded-xl lg:font-semibold transition duration-300 ease-in-out">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- HEADER END -->
+
+<!-- HERO SECTION START -->
+<section id="home" class="pt-32 lg:pb-32 lg:pt-48">
+    <div class="container">
+        <div class="flex flex-wrap-reverse justify-between">
+            <div class="w-full self-center px-4 xl:w-1/2 lg:w-[450px]">
+                <h1 class="block mt-1 mb-8 font-bold text-4xl text-dark text-center lg:text-left lg:text-5xl">Cari Teman Futsalmu Di <span class="font-extrabold text-primary">Futsal Yuk!</span></h1>
+                
+                <div class="flex justify-center lg:justify-start">
+                    <a href="#lobby" class="items-center flex justify-center text-base lg:text-xl font-semibold text-primary py-3 px-5 mr-3 border-2 border-primary rounded-xl  hover:text-white hover:bg-primary transition duration-300 ease-in-out">
+                        <svg class="mr-2" style="width:30px; height:30px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 20.03C16.41 20.03 20.03 16.41 20.03 12C20.03 7.59 16.41 3.97 12 3.97C7.59 3.97 3.97 7.59 3.97 12C3.97 16.41 7.59 20.03 12 20.03M12 22C6.46 22 2 17.54 2 12C2 6.46 6.46 2 12 2C17.54 2 22 6.46 22 12C22 17.54 17.54 22 12 22M11 13.54H8L12 17.5L16 13.54H13V6.5H11" />
+                        </svg>
+                        <p>Join Lobby</p> 
+                    </a>
+    
+                    <a href="create.html" class="items-center flex justify-center text-base lg:text-xl font-semibold text-primary py-3 px-5 border-2 border-primary rounded-xl  hover:text-white hover:bg-primary transition duration-300 ease-in-out">
+                        <svg class="mr-2" style="width:30px; height:30px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z" />
+                        </svg>
+                        <p>Create Lobby</p> 
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full self-end lg:w-fit">
+                <div class="mt-10 lg:mt-0 lg:mr-10 lg:right-0">
+                    <img width="400" height="400" src="dist/img/hero1.png" alt="IsfanAdheltyo" class="lg:w-[350px] xl:w-[500px] mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- HERO SECTION END -->
+
+<!-- LOBBY SECTION START -->
+<section id="lobby" class="pt-32 lg:pt-32 pb-20">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center lg:text-left mb-8  md:max-w-full lg:max-w-full">
+                <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Lobby Futsal yang Tersedia</h2>
+                
+                <div class="flex justify-center items-center w-full">
+                    <input type="search" class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-l transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none" placeholder="cari lobby disini..." aria-label="Search" aria-describedby="button-addon2">
+
+                    <button class="btn px-6 py-[11px] bg-primary text-white font-medium text-xs leading-tight uppercase rounded-r shadow-md hover:red-700 hover:shadow-lg focus:red-700  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out flex items-center" type="button" id="button-addon2">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOBBY START -->
+        <div class="w-full px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            
+            <!-- Lobby 1 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 2 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 3 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 4 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 5 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 6 -->
+            <a href="lobby.html">
+                <div class="flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 7 -->
+            <a href="lobby.html">
+                <div class="hide hidden flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 8 -->
+            <a href="lobby.html">
+                <div class="hide hidden flex-wrap p-5 min-h-10 border rounded-md hover:shadow-xl transition duration-300 ease-in-out">
+                    <div id="card-header" class="flex items-center mb-5">
+                        <div class="h-fit w-fit mr-2">
+                            <img class="rounded-full" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-sm font-bold">Cecep Rahman</h1>
+                            <p class="text-sm">@CR07</p>
+                        </div>
+                    </div>
+                    <div id="card-body" class="mb-5">
+                        <h1 class="text-xl font-bold mb-[5px]">Main Bareng di Sorein</h1>
+
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Wednesday, 24 November 2021</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">16.00 - 18.00</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">ACHMAD YANI KEBAYORAN LAMA</p>
+                        </div>
+                        <div class="flex items-center mb-[5px]">
+                            <svg class="mr-[4px]" style="width:20px; height:20px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                            </svg>
+                            <p class="w-full text-sm truncate">Online: Rp. 35.000 | Tunai: Rp. 35.000</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="w-full flex mb-2 bg-slate-200 rounded-full">
+                            <div class="w-1/5 h-[10px] bg-primary rounded-l-full"></div>
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-sm"><span class="font-semibold">2 Orang Join </span>dari 10</p>
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+                            </svg>
+                        </div>                    
+                    </div>
+                </div>
+            </a>
+
+            <!-- Lobby 9 -->
+            <div class="group hide hidden p-5 min-h-10 border rounded-md hover:bg-primary transition duration-300 ease-in-out">
+                <a class="w-full flex flex-wrap h-full text-center items-center" href="create.html">
+                    <div class="w-full">
+                        <svg class="mx-auto text-primary group-hover:text-white" style="width:150px; height:150px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M19,19V5H5V19H19M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5C3,3.89 3.9,3 5,3H19M11,7H13V11H17V13H13V17H11V13H7V11H11V7Z" />
+                        </svg>
+                    </div>
+                    <p class="w-full text-4xl text-primary text-center font-semibold group-hover:text-white">Create Lobby</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="px-4">
+            <button class="show-btn w-full mt-10 rounded-md bg-white text-primary text-xl font-semibold border-2 border-primary p-1 text-center hover:text-white hover:bg-primary transition duration-150 ease-in-out">Load More</button>
+        </div>
+    </div>
+</section>
+<!-- LOBBY SECTION END -->
+
+<!-- FOOTER START -->
+<footer class="bg-dark pt-24 pb-10">
+    <div class="container">
+        <div class="flex flex-wrap md:justify-between lg:justify-between">
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-fit lg:w-fit">
+                <h2 class="font-bold text-4xl text-white mb-5">Futsal Yuk!</h2>
+                <ul class="text-slate-300">
+                    <li>
+                        <a href="" class="mb-3 flex items-center hover:text-primary transition duration-300 ease-in-out">
+                            <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                            </svg>
+                            <p>futsal.yuk@gmail.com</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="mb-3 flex items-center hover:text-primary transition duration-300 ease-in-out">
+                            <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                            </svg>
+                            <p>futsal.yuk</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="mb-3 flex items-center hover:text-primary transition duration-300 ease-in-out">
+                            <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                            </svg>
+                            <p>Jl. Malang Raya no.99, Malang</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-fit lg:w-fit">
+                <h3 class="font-semibold text-xl text-white mb-5">Creator</h3>
+                <ul class="text-slate-300">
+                    <li>
+                        <p class="mb-3">Isfan Adheltyo</p>
+                    </li>
+                    <li>
+                        <p class="mb-3">Ivan Hilmi Derian</p>
+                    </li>
+                    <li>
+                        <p class="mb-3">Mohammad Rafi Azzaky</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-fit lg:w-fit">
+                <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                <ul class="text-slate-300">
+                    <li>
+                        <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="inline-block text-base hover:text-primary mb-3">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#lobby" class="inline-block text-base hover:text-primary mb-3">Available Lobby</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-fit lg:w-fit">
+                <h3 class="font-semibold text-xl text-white mb-5">Unduh Aplikasi</h3>
+                <ul class="text-slate-300">
+                    <li>
+                        <a href="" class="mb-3 flex items-center hover:text-primary transition duration-300 ease-in-out">
+                            <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <p>Futsal Yuk!</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+           <p class="font-medium text-sm text-slate-500 text-center">©️2021 Copyright Futsal Yuk!</p> 
+        </div>
+    </div>
+</footer>
+<!-- FOOTER END -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="dist/js/script.js"></script>
+<script>
+    $(".show-btn").on("click", function() {
+        $(".hide:hidden").slice(0, 3).slideDown()
+        if( $(".hide:hidden").length == 0)
+        {
+            $(".show-btn").fadeOut('slow')
+        }
+    })
+</script>
+</body>
+
+</html>

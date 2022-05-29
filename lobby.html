@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+
+    <title>Futsal Yuk! | Lobby</title>
+</head>
+
+<body>
+
+<!-- HEADER START -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="index.html" class="font-bold text-lg text-primary block py-6">
+                    <img class="w-24" src="dist/img/logo1.png" alt="">
+                </a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex lg:items-center">
+                        <li class="group">
+                            <a href="about.html" class="text-base lg:font-bold text-dark py-2 mx-8 lg:mx-5 flex group-hover:text-primary transition duration-300 ease-in-out">About Us</a>
+                        </li>
+                        <li class="group">
+                            <a href="login.html" class="text-base py-2 lg:px-5 mx-8 lg:mx-5 flex group-hover:text-primary lg:group-hover:text-white lg:hover:bg-primary lg:border-2 lg:border-primary lg:text-primary lg:rounded-xl lg:font-semibold transition duration-300 ease-in-out">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- HEADER END -->
+
+<!-- LOBBY INFO START -->
+<section id="lobby-info" class="pt-32">
+    <div class="container">
+        <div class="flex flex-wrap px-4">
+            <div class="w-full xl:w-[770px]">
+                <h1 class="w-full text-center font-bold text-4xl mx-auto mb-5">Main Bareng di Sorein</h1>
+                
+                <div class="border-b border-slate-300 pb-5 mb-5">
+                    <h2 class="text-xl font-bold">Deskripsi Lobby</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus in quas fugit architecto ipsum sunt, ad itaque quos consequatur rerum, praesentium iusto fuga consequuntur nostrum non eveniet alias assumenda omnis!</p>
+                </div>
+                <div class="xl:border-none border-b border-slate-300 pb-5 mb-5">
+                    <h2 class="text-xl font-bold">Lokasi Lapangan</h2>
+                    <p class="mb-2">Achmad Yani Kebayoran Lama</p>
+                    <img class="w-full rounded-sm" src="dist/img/map.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="w-full lg:p-5 xl:border lg:ml-auto xl:h-fit xl:w-[324px]">
+                <div class="flex flex-wrap">
+                    <div class="flex items-center mb-6">
+                        <img class="rounded-full mr-3" src="https://source.unsplash.com/50x50?footballplayer" alt="">
+                        <div class="flex flex-wrap">
+                            <p class="w-full font-bold">Cecep Rahman</p>
+                            <p class="text-sm font-thin">@CR07</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex mb-2">
+                        <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M7,12H9V14H7V12M21,6V20A2,2 0 0,1 19,22H5C3.89,22 3,21.1 3,20V6A2,2 0 0,1 5,4H6V2H8V4H16V2H18V4H19A2,2 0 0,1 21,6M5,8H19V6H5V8M19,20V10H5V20H19M15,14V12H17V14H15M11,14V12H13V14H11M7,16H9V18H7V16M15,18V16H17V18H15M11,18V16H13V18H11Z" />
+                        </svg>
+                        <div>
+                            <p class="font-bold mb-1">Hari dan Tanggal</p>
+                            <p>Rabu, 24 November 2021</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex mb-2">
+                        <svg class="mr-2" style="width:24px; height:24px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 11.5V13H11V7H12.5V11.5H17Z" />
+                        </svg>
+                        <div>
+                            <p class="font-bold mb-1">Jam Main</p>
+                            <p>16.00 - 18.00</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex mb-2">
+                        <svg class="mr-2" style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M4,4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4H4M4,6H11V8.13C9.24,8.59 8,10.18 8,12C8,13.82 9.24,15.41 11,15.87V18H4V16H7V8H4V6M13,6H20V8H17V16H20V18H13V15.87C14.76,15.41 16,13.82 16,12C16,10.18 14.76,8.59 13,8.13V6M4,10H5V14H4V10M19,10H20V14H19V10M13,10.27C13.62,10.63 14,11.29 14,12C14,12.71 13.62,13.37 13,13.73V10.27M11,10.27V13.73C10.38,13.37 10,12.71 10,12C10,11.29 10.38,10.63 11,10.27Z" />
+                        </svg>
+                        <div>
+                            <p class="font-bold mb-1">Nama Lapangan</p>
+                            <p>Lapangan Futsal Sorein</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex mb-4">
+                        <svg class="mr-2" style="width:24px; height:24px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                        </svg>
+                        <div>
+                            <p class="font-bold mb-1">Harga patungan</p>
+                            <p><span class="text-primary font-extrabold">Rp. 35.000</span> / orang</p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:mb-0 mb-5">
+                        <a href="#" class="text-center w-full block p-2 bg-primary rounded-md text-white active:bg-red-700">
+                            <p class="font-semibold">Daftar Sekarang</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- LOBBY INFO END -->
+
+<script src="dist/js/script.js"></script>
+</body>
+
+</html>
